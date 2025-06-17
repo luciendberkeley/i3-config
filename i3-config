@@ -190,7 +190,7 @@ bindsym $mod+p mode "resize"
 # finds out, if available)
 bar {
 	status_command /usr/bin/bumblebee-status -m cpu memory battery time \
-		pasink pasource -p time.format="%H:%M" -t solarized
+		pasink pasource -p time.format="%H:%M" -t gruvbox-powerline
 }
 
 exec feh --bg-fill $HOME/Downloads/wallpaper.jpg
