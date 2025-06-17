@@ -9,6 +9,8 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+exec --no-startup-id xrandr --output Virtual-2 --auto --left-of Virtual-1
+
 set $mod Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
